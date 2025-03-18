@@ -28,5 +28,11 @@
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "prettier": "^3.5.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt",
+      "sharp"
+    ]
   }
 }
